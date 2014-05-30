@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/*
+.column_block_03{
+  background: url(/common/img/bdr/01.gif) repeat-x left top;
+}
+*/
+.column_block_03 div{
+  background: url(/common/img/bdr/01.gif) repeat-x left bottom;
+  padding: 15px 0;
+}
+.column_block_03 div p{
+  margin-top: 15px;
+}
+.column_block_03 div a{
+  color: #262626;
+}
+.column_block_03 div a:hover{
+  color: #E15C28;
+}
+.column_block_03 div span{
+  font-size: 85.7%;
+}
+.column_block_03 div > p:first-child { 
+  margin-top: 0px;
+ }
+
+.column_block_02{
+  background: url(/common/img/bdr/01.gif) repeat-x left bottom;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+/*.column_block_02 p{
+  margin-top: 20px;
+}
+
+.column_block_02 p:first-child{
+  margin-top: 0px;
+}*/
+
+/*-----------------------------------------------
+	コラム・特集トップ　h4なし
+-----------------------------------------------*/
+.column_block_01 div{
+  background: url(/common/img/bdr/01.gif) repeat-x left bottom;
+  padding: 15px 0;
+}
+.column_block_01 div p{
+  margin-top: 15px;
+}
+.column_block_01 div a{
+  color: #262626;
+}
+.column_block_01 div a:hover{
+  color: #E15C28;
+}
+.column_block_01 div span{
+  font-size: 85.7%;
+}
+
+.column_block_01:first-child{
+  background: url(/common/img/bdr/01.gif) repeat-x left top;
+}
+.column_block_01 div > p:first-child { 
+  margin-top: 0px;
+ }

@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+
+#contents .index_section{
+padding-bottom: 0;
+margin-bottom: 50px;
+}
+
+
+/* index.html */
+.mod_ttl_01 h4{
+	font-size: 133.33%;
+	float: none;
+}
+
+.index_link01{
+	text-align: center;
+}
+
+.index_dl01 dt{
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	background: url(/common/img/bdr/01.gif) left bottom repeat-x;
+	color: #7e9700;
+	font-weight: bold;
+}
+
+.index_dl01 dd{
+	margin-bottom: 20px;
+}
+
+.index_dl01 .continue{
+	margin-bottom: 40px;
+}
+
+.index_dl01 .last-child{
+	margin-bottom: 0;
+}
+
+
+/* index.html : #index_section01 */
+#index_section01{
+}
+
+#index_section01 .p01{
+	margin-bottom: 20px;
+}
+
+#index_section01 .p02{
+	margin-bottom: 30px;
+}
+
+#index_section01 .div01{
+	margin-bottom: 30px;
+	padding-top: 5px;
+	background: url(/common/img/bdr/01.gif) left top repeat-x;
+}
+
+#index_section01 .div01 div{
+	padding-bottom: 5px;
+	background: url(/common/img/bdr/01.gif) left bottom repeat-x;
+}
+
+#index_section01 .div01 th{
+	font-weight: bold;
+	font-size: 85.7%;
+}
+
+#index_section01 .div01 td{
+	padding: 15px 0 10px 14px;
+	border-left: 2px solid #e0e0e0;
+}
+
+#index_section01 .div01 td .mod_list_01 li{
+	margin-bottom: 0;
+}
+
+/* index.html : #index_section02 */
+#index_section02{
+}
+
+#index_section02 .p01{
+	margin-bottom: 30px;
+}
+
+#index_section02 .mod_table_01{
+	margin-bottom: 30px;
+}
+
+#index_section02 .mod_table_01 th{
+	text-align:center;
+}
+
+#index_section02 .mod_table_01 .th01{
+	border-right-color: #e5f0b3;
+}
+
+
+/* index.html : #index_section03 */
+#index_section03{
+	padding-top: 0 !important;
+}
+
+/* index.html : #index_section04 */
+#index_section04{
+	padding-top: 0 !important;
+}
+
+#index_section04 .p01{
+	margin-bottom: 40px;
+}
+
+/* index.html : #index_section05 */
+#index_section05 .p01{
+	margin-bottom: 30px;
+}
+
+.fz12pt{
+	font-size:12pt;
+}
+
+
+/* flow.html */
+.question_block_01{
+	background: url(/aboutus/img/bdr_01.gif) no-repeat 35px bottom;
+	padding-bottom: 35px;
+	margin-bottom: 10px;
+}
+.question_block_01 table{
+	width: 100%;
+}

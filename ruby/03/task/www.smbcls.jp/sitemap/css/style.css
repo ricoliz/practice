@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+/* section */
+#contents .index_section{
+padding-top: 0;
+padding-bottom: 0;
+margin-bottom: 50px;
+}
+
+#contents #index_section02{
+margin-bottom: 0px;
+}
+
+#index_section06 .map01{
+padding-top: 20px;
+background: url(/common/img/bdr/01.gif) left top repeat-x;
+}
+
+/* map_ttl01 */
+.map_ttl01{
+margin-left: 29px;
+margin-bottom: 20px;
+}
+
+.map_ttl01 h3{
+font-size: 155%;
+font-weight: bold;
+}
+
+
+/* map01 */
+.map01 li{
+margin-bottom: 10px;
+width: 320px;
+}
+
+.map01 li.left{
+float: left;
+}
+
+.map01 li.right{
+float: right;
+}
+
+.map01 li a{
+padding-left: 20px;
+display: block;
+background: url(/common/img/blt/02.gif) no-repeat 0 .3em;
+color: #262626;
+font-weight: bold;
+}
+
+.map01 li a:hover{
+color: #E15C28;
+}
+
+.map01 li ul{
+margin-top: 10px;
+margin-left: 20px;
+}
+
+.map01 li ul li{
+width: 135px;
+margin-right: 15px;
+}
+
+.map01 li ul li a{
+padding-left: 15px;
+display: block;
+background: url(/common/img/blt/01.gif) no-repeat 0 .4em;
+font-weight: normal;
+}
+

@@ -1,0 +1,563 @@
+h1 { line-height: 1.2em; }
+h2 { line-height: 1.2em; }
+h3 { margin-bottom:20px; }
+p.sub { width:100%; margin-bottom:10px; }
+.en.name { line-height:1.0em; margin:10px 0; }
+br.none { display:none; }
+
+/* ------------------------------------
+ outline
+------------------------------------ */
+.contentWidth {
+  width: 94%;
+  margin: 0 3%;
+}
+.miniWidth {
+  width: 94%;
+  margin: 0 3%;
+}
+#header {
+  position: static;
+  padding-top: 15px;
+}
+#header .contentWidth {
+  zoom: 1;
+}
+#header .contentWidth:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header p.logo {
+  display: block;
+  text-align: center;
+  padding-bottom: 15px;
+}
+#header p.logo img {
+  width: 200px;
+}
+#header .contentWidth #globalNavi {
+  display:none;
+}
+#header #subnavi {
+  display: none;
+}
+#footerNavi {
+  display: none;
+}
+#contents {
+  margin-top: 0px;
+}
+#contents .underLayer {
+  margin-top: 20px;
+}
+div.visualSlide {
+  width:100%;
+  height: 150px;
+  margin-top:20px;
+}
+div.visualSlide ul {
+  height: 150px;
+}
+div.visualSlide ul li {
+  height: 150px;
+ -moz-background-size:contain;
+-webkit-background-size:contain;
+-o-background-size:contain;
+-ms-background-size:contain;
+}
+/* 画像＋テキスト
+--------------------------------------------*/
+.imageBlock {
+  margin-bottom: 20px;
+  zoom: 1;
+}
+.imageBlock:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.imageBlock div.img.left {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.imageBlock div.img.right {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+.imageBlock div.note {
+  margin-top: 10px;
+  overflow: hidden;
+  zoom: 1;
+}
+.imageBlock.wrap div.note {
+  overflow: visible;
+}
+h1 {
+  position: relative;
+}
+h1 span {
+  font-size: 14px;
+  line-height: 14px;
+  top: 15px;
+  left: 15px;
+  color: #000000;
+}
+/* アンカー（/about/people.html）
+--------------------------------------------*/
+ul.anchorBlock {
+  display: none;
+  zoom: 1;
+}
+ul.anchorBlock:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ul.anchorBlock li {
+  float: none;
+  width: 100%;
+  margin-right: 0px;
+  text-align: center;
+  zoom: 1;
+}
+ul.anchorBlock li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ul.anchorBlock li.last {
+  margin-right: 0;
+}
+ul.anchorBlock li a img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+ul.anchorBlock li a span.caption {
+  margin-top: 0px;
+  overflow: hidden;
+  zoom: 1;
+}
+/* ボタン
+--------------------------------------------*/
+span.button:hover {
+  background: #fff;
+  color: #aaa;
+  cursor: pointer;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+span.button.prev {
+  background: url(/resources/common/img/buttonArrow.gif) left center no-repeat;
+}
+span.button.prev:hover {
+  background: #ffffff url(/resources/common/img/buttonArrow.gif) left center no-repeat;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+span.button.next {
+  background: url(/resources/common/img/buttonArrow.gif) right center no-repeat;
+}
+span.button.next:hover {
+  background: #ffffff url(/resources/common/img/buttonArrow.gif) right center no-repeat;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+a.button3, span.button3 {
+  margin-top: 15px;
+}
+a.button3.sizeS, span.button3.sizeS,
+a.button3.sizeM, span.button3.sizeM,
+a.button3.sizeL, span.button3.sizeL {
+  width: 80%;
+}
+
+.accordionBoxProf .acButton a,
+.accordionBoxProf .acButton a:hover {
+	width:130px!important;
+	padding-right: 30px;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+
+/* paging
+--------------------------------------------*/
+.paging {
+  display: block;
+}
+.paging {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.paging a {
+  width: 50%;
+  margin: 10px !important;
+}
+.paging a.prev {
+  width: 50%;
+  margin: 10px;
+}
+.paging a.next {
+  width: 50%;
+  margin: 10px;
+}
+/* evenBlocki/btcamp/schedule.htmlj
+--------------------------------------------*/
+div.evenBlock {
+  margin-bottom: 20px;
+  background: #f6f6f6;
+  padding: 25px;
+  position: static;
+}
+div.evenBlock .detail p.eventNo {
+  font-family: 'Istok Web';
+  font-weight: 700;
+  color: #898989;
+  font-size: 95%;
+  margin-bottom: 5px;
+}
+div.evenBlock .detail p.title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+div.evenBlock .form {
+  text-align: center;
+  position: static;
+}
+div.evenBlock .form span.addRight,
+div.evenBlock .form span.addLeft {
+  margin: 0!important;
+}
+div.evenBlock .form .button2 {
+  width: 50%;
+  margin: 10px;
+}
+/* 画像＋テキスト
+--------------------------------------------*/
+.imageBlock {
+  margin-bottom: 20px;
+  zoom: 1;
+}
+.imageBlock:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.imageBlock div.img.left {
+  float: left;
+  margin: 0 0 20px 0;
+}
+.imageBlock div.img.right {
+  float: right;
+  margin: 0 0 20px 0;
+}
+/* 画像
+--------------------------------------------*/
+.imgFull {
+  width: 100%;
+  height: auto;
+  float: none !important;
+}
+.imgFull img {
+  width: 100%;
+  height: auto;
+  margin: 0!important;
+}
+.imgHalf {
+  width: 50%;
+  height: auto;
+}
+.imgHalf img {
+  width: 100%;
+  height: auto;
+}
+.imgOneThird {
+  width: 33%;
+}
+.imgOneThird img {
+  width: 95%;
+  height: auto;
+}
+.imgNone img {
+  display:none;
+}
+/* jCarouse */
+#movie {
+  position: static;
+}
+#movie .ca_content {
+  position: static;
+}
+#movie div.carousel .ca_control {
+	position:static;
+  text-align: center;
+
+}
+#movie div.carousel .ca_control li{
+	position:static;
+	display:inline-block;
+  text-align: center;
+}
+#movie div.carousel .ca_control .button.prev {
+	display:inline-block;
+  position: static;
+  margin-right: 10px;
+}
+#movie div.carousel .ca_control .button.next {
+	display:inline-block;
+  position: static;
+  margin-left: 10px;
+}
+
+#movie div.carousel .ca_content { width:280px; }
+
+/* スクロールで画面に出てきたらフワッと表示 */
+div.delayView {
+  opacity: 1;
+}
+/* columns
+--------------------------------------------*/
+div.columns {
+  margin: auto;
+  margin-bottom: 20px;
+}
+div.columns .column {
+  float: none;
+}
+div.columns .column .inner {
+  margin: 0 0 35px;
+}
+div.columns.two .column {
+  width: 100%;
+}
+div.columns.three .column {
+  width: 100%;
+}
+div.columns.three .column img {
+  width: 100% !important;
+}
+
+/*  */
+dl.dl01 {
+  zoom: 1;
+  margin-bottom: 30px;
+}
+dl.dl01:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+dl.dl01.last {
+  border-bottom: 0;
+}
+dl.dl01 dt {
+  font-weight: bold;
+  width: auto;
+  float: none;
+}
+dl.dl01 dd {
+  float: none;
+}
+/* トップページ用 */
+#topCententBlock {
+  zoom: 1;
+}
+#topCententBlock:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#topCententBlock #infoContent {
+  float: none;
+  width: 100%;
+}
+#topCententBlock #infoContent #events {
+  zoom: 1;
+  margin-bottom: 30px;
+  width: 100%;
+}
+#topCententBlock #infoContent #events:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#topCententBlock #infoContent #events div.event {
+  float: none;
+  padding: 5%;
+  width: 90%;
+  margin: 0 0 10px;
+  background: #f6f6f6;
+}
+#topCententBlock #infoContent #events div.event .fcGray {
+  color: #898989;
+  font-size: 90%;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#topCententBlock #sns {
+  float: none;
+  width: 99%;
+  border: 1px solid #d2d2d2;
+  margin-top: 0;
+}
+span.icon {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 100%;
+}
+.hFix {
+  height: auto;
+}
+
+.portfolioLogo {
+	margin:0 auto 10px !important;
+	display:block;
+}
+
+#smpNavi {
+  display: block;
+  margin-top: 30px;
+}
+#smpNavi a {
+  text-decoration: none;
+  color: #969696;
+}
+#smpNavi {
+  display: block;
+  margin-top: 30px;
+}
+#smpNavi ul.gN {
+  border-bottom: 1px solid #d2d2d2;
+}
+#smpNavi ul.gN > li {
+  border: 1px solid #d2d2d2;
+  border-bottom: none;
+}
+#smpNavi ul.sN {
+  padding: 13px;
+  background: #E2E2E2;
+  border-top: 1px solid #d2d2d2;
+  overflow: hidden;
+}
+#smpNavi ul.sN > li {
+  border: 1px solid #e2e2e2;
+  background-color: #ffffff;
+  border-bottom: none;
+}
+#smpNavi ul.sN > li:last-child {
+  border-bottom: 1px solid #e2e2e2;
+}
+#smpNavi ul.gN > li > a,
+#smpNavi ul.gN > li > span > a {
+  display: block;
+  padding: 17px 9px;
+  background-color: #ffffff;
+}
+#smpNavi ul.gN > li > a:hover,
+#smpNavi ul.gN > li > span > a:hover {
+  background-color: #f0f0f0;
+}
+#smpNavi ul.gN > li > a > span,
+#smpNavi ul.gN > li > span > a > span {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+#smpNavi ul.gN > li > a > span > span,
+#smpNavi ul.gN > li > span > a > span > span {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  background: url(/resources/common/img/gNaviArrowOvr.png) left 50% no-repeat;
+  top: 0px;
+  left: -10px; /*js操作*/
+}
+#smpNavi ul.gN > li.cur > a > span > span,
+#smpNavi ul.gN > li.cur > span > a > span > span {
+  color: #d70b24;
+  background: url(/resources/common/img/gNaviArrowCur.png) left 50% no-repeat;
+  top: 0px;
+  left: 0px;
+}
+#smpNavi ul.sN > li > a {
+  display: block;
+  padding: 15px 9px;
+  text-align: center;
+  background: #ffffff url(/resources/common/img/buttonArrow.png) right center no-repeat;
+  color: #000000;
+}
+#smpNavi ul.sN > li > a:hover {
+  background: #f0f0f0 url(/resources/common/img/buttonArrowHover.png) right center no-repeat;
+}
+
+
+.mainVisual {
+  margin: 0 auto 30px;
+}
+h2 {
+  margin-bottom: 25px;
+}
+p.lead {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  /*text-align: left;*/
+}
+p.lead br {
+  display: none;
+}
+
+.add3Bottom {
+  margin-bottom: 30px !important;
+}
+.addBottom {
+  margin-bottom: 10px !important;
+}
+.addWTop {
+  margin-top: 20px !important;
+}
+.addWBottom {
+  margin-bottom: 30px !important;
+}
+h4 {
+  margin-bottom: 10px;
+}
+.add3Top {
+  margin-top: 30px !important;
+}
+#footer {
+  margin-top: 40px;
+  min-width: 100%;
+}
+#footer .inner p.copyright span.fbLike {
+  display: block;
+  padding-right: 0px;
+}
+div.visualSlide {
+  min-width: 100%;
+  margin-bottom:30px;
+}
+#information {
+  margin-bottom:30px;
+}
+div.accordionBoxProf {
+  margin-bottom: 20px;
+}
+div.grayBox {
+  padding: 5%;
+  width: 90%;
+}
+div.evenBlock {
+  padding: 5%;
+  width: 90%;
+}

@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+#programNav{
+  margin-bottom: 10px;
+}
+#programNav li{
+  width: 230px;
+  float: left;
+  margin-right: 15px;
+}
+
+#programSubNav{
+  margin-bottom: 50px;
+  margin-top: -16px;
+  /margin-top: 0;
+}
+#programSubNav table{
+  width: 100%;
+}
+
+#programSubNav th, #programSubNav td{
+  padding: 8px 0;
+}
+#programSubNav th{
+  background: url(/common/img/bdr/01.gif) repeat-x left bottom;
+}
+#programSubNav td{
+  background: url(/common/img/bdr/01.gif) repeat-x 2px bottom;
+}
+#programSubNav td a{
+  display: block;
+  color: #262626;
+  padding-left: 20px;
+  font-weight: bold;
+}
+#programSubNav td a:hover{
+  color: #E15C28;
+}
+#programSubNav .current a{
+  background: none !important;
+  color: #e15c28;
+  border-left: 3px solid #e15c28;
+  padding: 6px 0 6px 16px;
+}
+
+.blue #programSubNav a{
+  background: url(/common/img/blt/06.gif) no-repeat 0 .3em;
+}
+.red #programSubNav a{
+  background: url(/common/img/blt/07.gif) no-repeat 0 .3em;
+}
+.green #programSubNav a{
+  background: url(/common/img/blt/08.gif) no-repeat 0 .3em;
+}
+
+.program_block_01{
+  background: url(/common/img/bdr/01.gif) repeat-x left top;
+}
+.program_block_01 div{
+  padding: 20px 0;
+  background: url(/common/img/bdr/01.gif) repeat-x left bottom;
+}
+.program_block_01 div p{
+  min-height: 31px;
+  height: auto !important;
+  height: 31px;
+  background: url(/program/img/icn_01.gif) no-repeat 0 50%;
+  padding-left: 45px;
+}
+
+.programModNav{
+  margin-top: -16px;
+  /margin-top: 0;
+}
+.programModNav table{
+  width: 100%;
+}
+.programModNav th, .programModNav td{
+  vertical-align: top;
+  padding: 10px 0;
+}
+.programModNav th{
+  background: url(/common/img/bdr/01.gif) repeat-x left bottom;
+}
+.programModNav td{
+  background: url(/common/img/bdr/01.gif) repeat-x 2px bottom;
+}
+.programModNav td a{
+  display: block;
+  color: #262626;
+  padding-left: 20px;
+  font-weight: bold;
+  background: url(/common/img/blt/02.gif) no-repeat 0 .3em;
+  margin-bottom: 5px;
+}
+.programModNav td a:hover{
+  color: #E15C28;
+}
+.programModNav td span{
+  font-size: 85.7%;
+}
+
+.programModNav .blue a{
+  background: url(/common/img/blt/06.gif) no-repeat 0 .3em;
+}
+.programModNav .red a{
+  background: url(/common/img/blt/07.gif) no-repeat 0 .3em;
+}
+.programModNav .green a{
+  background: url(/common/img/blt/08.gif) no-repeat 0 .3em;
+}

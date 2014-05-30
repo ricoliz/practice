@@ -1,0 +1,16 @@
+
+#sns .twtr-widget .twtr-tweet  { border-bottom:1px solid #D2D2D2; }
+#sns .twtr-widget .twtr-tweet:last-child { border-bottom-width: 0; }
+#sns .twtr-widget .twtr-ft a img { display:none; }
+#sns .twtr-widget .twtr-tweet-wrap { padding: 10px 8px; }
+
+#sns .twtr-widget .twtr-ft div { padding-bottom:0; }
+
+#sns .tw { border-bottom:1px solid #D2D2D2; margin-bottom:20px; }
+
+#sns .blogger div.inner { padding: 0 20px; }
+#sns .blogger div.lists {  overflow:hidden;_zoom:1;}
+#sns .blogger div p { margin-bottom:20px; }
+#sns .blogger div dl { padding-top:10px; border-top:1px solid #D2D2D2; margin-bottom:20px; margin-top:-10px; }
+#sns .blogger div dl dt { font-size:11px; line-height:13px; color:#8f8c90; }
+#sns .blogger div dl dd { font-size:13px; }

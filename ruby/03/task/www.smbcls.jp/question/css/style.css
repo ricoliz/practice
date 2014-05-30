@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.question_block_01{
+	margin-bottom: 10px;
+}
+.question_block_01 .icon{
+	width: 42px;
+	float: left;
+}
+.question_block_01 .text{
+	width: 610px;
+	float: right;
+	margin-top: 12px;
+}

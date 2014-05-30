@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#map{
+	width: 658px;
+	height: 448px;
+	border: 1px solid #ccc;
+}
+.section{
+	margin-top: 22px;
+}
+.map-comment{
+	text-align:right;
+	padding-top:12px;
+	font-size:85%;
+}
+
+.mod_div_01 .left {
+    float: left;
+    width: 432px;
+}
+.mod_div_01 .right {
+    float: right;
+    width: 208px;
+}

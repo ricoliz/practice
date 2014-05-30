@@ -1,0 +1,988 @@
+@charset "utf-8";
+
+body {
+/*  font-family: "TsukuMinPr6-R","FOT-筑紫明朝 Pr6 R";*/
+/*  font-family: "Lucida Sans",arial,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic", "Osaka",sans-serif;*/
+  font-size: 14px;
+  line-height:1.5em;
+}
+.bold {
+/*  font-family: "Lucida Sans",arial,"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic", "Osaka",sans-serif;*/
+/*  font-family: "TsukuMinPr6-D","FOT-筑紫明朝 Pr6 D";*/
+}
+
+/* ------------------------------------
+ frame
+------------------------------------ */
+.contentWidth {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+  zoom: 1;
+}
+.contentWidth:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.miniWidth {
+  width: 700px;
+  margin: 0 auto;
+}
+a * {
+  cursor:pointer;
+}
+
+/*header font*/
+#header #subnavi .subnaviWrap ul li a span.ttl,
+#footerNavi ul li a span.ttl {
+  font-family: 'Arimo';
+  font-size: 11px;
+  line-height: 11px;
+  color: #000000;
+  font-weight: 600;
+  white-space: nowrap;
+}
+#header #subnavi .subnaviWrap ul li a span.ttl.on,
+#footerNavi ul li a span.ttl.on {
+  color: #ffffff;
+}
+#header #globalNavi li a,
+#smpNavi ul.gN > li > span > a,
+#smpNavi ul.gN > li > a {
+  font-family: 'Ropa Sans';
+  font-size: 20px;
+  font-weight: 600;
+  line-height:20px;
+  letter-spacing: 0.1em;
+  color: #969696;
+}
+#header #subnavi .subnaviWrap ul li a span.panelTxt span.txt,
+#footerNavi ul li a span.panelTxt span.txt {
+  font-family: 'RodinPro-M';
+  font-size: 11.5px;
+  color: #ffffff;
+  padding-top: 3px;
+}
+
+#header {
+  width: 100%;
+  padding-top: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  background: url(/resources/common/img/gNaviBG.png);
+  zoom: 1;
+}
+#header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header p.logo {
+  display: block;
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d2d2d2;
+}
+#header #globalNavi {
+  float: left;
+  zoom: 1;
+  padding-left: 40px;
+}
+#header #globalNavi:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header #globalNavi li {
+  float: left;
+}
+#header #globalNavi li a {
+  text-decoration: none;
+  display: block;
+  padding: 20px 0px;
+  overflow: hidden;
+}
+
+#header #globalNavi li.gN1 a {
+  width: 165px;
+}
+#header #globalNavi li.gN2 a {
+  width: 178px;
+}
+#header #globalNavi li.gN3 a {
+  width: 152px;
+}
+#header #globalNavi li.gN4 a {
+  width: 165px;
+}
+#header #globalNavi li.gN5 a {
+  width: 150px;
+}
+#header #globalNavi li.gN6 a {
+  width: 159px;
+}
+#header #globalNavi li.gN7 a {
+  width: 0px;
+}
+#header #globalNavi li a span {
+  display: block;
+  padding-left: 10px!important;
+  background: url(/resources/common/img/gNaviArrowOvr.png) left 50% no-repeat;
+  _background: url(/resources/common/img/gNaviArrowOvr.gif) left 50% no-repeat;
+  position: relative;
+  top: 0px;
+  left: -10px;
+}
+
+#header #globalNavi li a:hover {
+  color: #5a5a5a;
+}
+#header #globalNavi li.cur a,
+#header #globalNavi li.cur a:hover {
+  color: #d70b24;
+}
+#header #globalNavi li.cur a span {
+  background: url(/resources/common/img/gNaviArrowCur.png) left 50% no-repeat;
+  _background: url(/resources/common/img/gNaviArrowCur.gif) left 50% no-repeat;
+  left: 0px;
+}
+#header.scroll {
+  padding-top: 10px !important;
+}
+#header.scroll div.wrap_border {
+  border-bottom: 1px solid #d2d2d2;
+}
+#header.scroll p.logo {
+  border-bottom: none;
+  padding-bottom: 0px !important;
+}
+#header.scroll p.logo img {
+  width: 150px !important;
+}
+#header.scroll #globalNavi {
+  margin: -10px 0 !important;
+}
+
+#header #subnavi {
+  background: #E2E2E2;
+  overflow: hidden;
+  position: relative;
+  height: 0px;
+}
+#header .subnaviWrap {
+  height: 120px;
+}
+#header #subnavi .subnaviWrap ul {
+  display: none;
+  padding: 20px 0 10px;
+  zoom: 1;
+  height: 90px;
+}
+#header #subnavi .subnaviWrap ul:after,
+#footerNavi ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header #subnavi .subnaviWrap ul.sN1,
+#footerNavi ul.sN1 {
+  margin-left: 48px;
+}
+#header #subnavi .subnaviWrap ul.sN2,
+#footerNavi ul.sN2 {
+  margin-left: 270px;
+}
+#header #subnavi .subnaviWrap ul li,
+#footerNavi ul li {
+  padding-right: 1px;
+  float: left;
+}
+#header #subnavi .subnaviWrap ul li a,
+#footerNavi ul li a {
+  display: block;
+  width: 220px;
+  height: 90px;
+  text-decoration: none;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+  z-index: 2100;
+}
+#header #subnavi .subnaviWrap ul li a span.ttl.off,
+#footerNavi ul li a span.ttl.off {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2110;
+}
+#header #subnavi .subnaviWrap ul li a span.panelBG,
+#footerNavi ul li a span.panelBG {
+  display: block;
+  width: 220px;
+  height: 90px;
+  background: url(/resources/common/img/subMenuBG.png) left top no-repeat;
+  position: absolute;
+  top: -90px; /*js操作*/
+  left: 0;
+  z-index: 2120;
+}
+#header #subnavi .subnaviWrap ul li a span.panelTxt,
+#footerNavi ul li a span.panelTxt {
+  display: block;
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2130;
+  overflow:hidden;
+}
+#header #subnavi .subnaviWrap ul li a span.panelTxt span.ttl,
+#header #subnavi .subnaviWrap ul li a span.panelTxt span.txt,
+#footerNavi ul li a span.panelTxt span.ttl,
+#footerNavi ul li a span.panelTxt span.txt {
+  display: block;
+  width: 200px;
+}
+
+#header #subnavi div.pointerWrap {
+  width: 100%;
+  height: 10px;
+  border-bottom: 5px solid #ffffff;  
+}
+#header #subnavi div.pointerWrap {
+  width: 100%;
+  height: 10px;
+  border-bottom: 5px solid #ffffff;  
+  positon: relative;
+}
+#header #subnavi div.pointerWrap p.pointer {
+  position: absolute;
+  left: -20px; /*js操作*/
+  top: auto;
+}
+
+#contents {
+  display: block;
+  margin-top: 0px;
+}
+#contents .underLayer {
+  margin-top: 163px;
+  _margin-top: 25px;
+}
+#smpNavi {
+	display: none;
+}
+#footer {
+  text-align: center;
+  background: #ebebeb;
+  margin-top: 60px;
+  min-width:980px;
+  _width: 100%;
+  height: 220px;
+}
+#footer .goTop {
+  background: #fff;
+}
+#footer .goTop a {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  background: url(/resources/common/img/goTop.gif) top left no-repeat;
+}
+#footer .goTop a:hover {
+  background-position: bottom;
+}
+#footer .goTop a span {
+  display: none;
+}
+#footer .inner ul {
+  padding-top: 30px;
+}
+#footer .inner ul li {
+  display: inline;
+  margin: 0 10px;
+}
+#footer .inner ul li a {
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  margin-bottom: 30px;
+}
+#footer .inner ul li a:hover {
+  background-position: bottom;
+}
+#footer .inner ul li a span {
+  display: none;
+}
+#footer .inner ul li.fb a {
+  background: url(/resources/common/img/iconFacebook.gif) top left no-repeat;
+}
+#footer .inner ul li.fb a:hover {
+  background-position: bottom;
+}
+#footer .inner ul li.tw a {
+  background: url(/resources/common/img/iconTwitter.gif) top left no-repeat;
+}
+#footer .inner ul li.tw a:hover {
+  background-position: bottom;
+}
+#footer .inner ul li.bl a {
+  background: url(/resources/common/img/iconBlogger.gif) top left no-repeat;
+}
+#footer .inner ul li.bl a:hover {
+  background-position: bottom;
+}
+#footer .inner p.copyright {
+  font-family: 'Istok Web';
+  font-size: 11px;
+  color: #aeaeae;
+  margin-bottom: 30px;
+  padding-top: 3px;
+}
+#footer .inner p.copyright a {
+  color:#aeaeae; 
+  text-decoration:none;
+}
+#footer .inner p.copyright a,
+#footer .inner p.copyright iframe {
+  vertical-align: middle;
+}
+#footer .inner p.copyright span.fbLike {
+  padding-right: 10px;
+}
+#footer .inner p.copyright a:hover { color:#5a5a5a; }
+
+div.visualSlide {
+  min-width:980px;
+  _width:100%;
+  height: 550px;
+  margin-bottom:60px;
+  position:relative;
+}
+div.visualSlide ul {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 550px;
+}
+div.visualSlide ul li {
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+div.visualSlide ul li.slide01 {
+  z-index: -1;
+  background: url(/resources/top/img/slide01.jpg) 50% 0 no-repeat;
+}
+div.visualSlide ul li.slide02 {
+  z-index: -2;
+  background: url(/resources/top/img/slide02.jpg) 50% 0 no-repeat;
+}
+div.visualSlide ul li.slide03 {
+  z-index: -3;
+  background: url(/resources/top/img/slide03.jpg) 50% 0 no-repeat;
+}
+div.visualSlide ul li.slide04 {
+  z-index: -4;
+  background: url(/resources/top/img/slide04.jpg) 50% 0 no-repeat;
+}
+div.visualSlide ul li.slide05 {
+  z-index: -5;
+  background: url(/resources/top/img/slide05.jpg) 50% 0 no-repeat;
+}
+div.visualSlide ul li.slide06 {
+  z-index: -6;
+  background: url(/resources/top/img/slide06.jpg) 50% 0 no-repeat;
+}
+div.visualSlide ul li.slide07 {
+  z-index: -7;
+  background: url(/resources/top/img/slide07.jpg) 50% 0 no-repeat;
+}
+div.visualSlide ul li.slide08 {
+  z-index: -8;
+  background: url(/resources/top/img/slide08.jpg) 50% 0 no-repeat;
+}
+div.visualSlide ul li.slide09 {
+  z-index: -9;
+  background: url(/resources/top/img/slide09.jpg) 50% 0 no-repeat;
+}
+div.visualSlide ul li.slide10 {
+  z-index: -10;
+  background: url(/resources/top/img/slide10.jpg) 50% 0 no-repeat;
+}
+
+/* ACR */
+.iconWin {
+  margin-right: 7px;
+}
+/* W[
+--------------------------------------------*/
+/* mainVisual */
+.mainVisual {
+  margin: 0 auto 60px;
+}
+/* {^
+--------------------------------------------*/
+a.button, span.button {
+  font-size: 85%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 9px 25px 9px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  color: #aaa;
+  background-color: #ffffff;
+}
+a.button.sizeS, span.button.sizeS {
+  width: 100px;
+}
+a.button.sizeM, span.button.sizeM {
+  width: 200px;
+}
+a.button.sizeL, span.button.sizeL {
+  width: 300px;
+}
+a.button.sizeFull, span.button.sizeFull {
+  display: block;
+}
+a.button:hover, span.button:hover {
+  background: #f0f0f0;
+  color: #5a5a5a;
+  cursor: pointer;
+}
+a.button.prev, span.button.prev {
+  background: url(/resources/common/img/buttonArrow.png) left center no-repeat;
+}
+a.button.prev:hover, span.button.prev:hover {
+  background: #f0f0f0 url(/resources/common/img/buttonArrowHover.png) left center no-repeat;
+}
+a.button.next, span.button.next {
+  background: #ffffff url(/resources/common/img/buttonArrow.png) right center no-repeat;
+}
+a.button.next:hover, span.button.next:hover {
+  background: #f0f0f0 url(/resources/common/img/buttonArrowHover.png) right center no-repeat;
+}
+a.button2, span.button2 {
+  font-size: 85%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 9px 20px 9px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  background: #e1e1e1;
+  color: #676767;
+}
+.button2.next, .button2.next {
+  background: #e1e1e1 url(/resources/common/img/buttonArrow.png) right center no-repeat;
+}
+a.button2.next:hover, span.button2.next:hover {
+  background: #cbcbcb url(/resources/common/img/buttonArrowHover.png) right center no-repeat;
+}
+a.button2.open, span.button2.open {
+  background: #e1e1e1 url(/resources/common/img/buttonArrowOpen.png) right center no-repeat;
+}
+a.button2.close, span.button2.close {
+  background: #e1e1e1 url(/resources/common/img/buttonArrowClose.png) right center no-repeat;
+}
+a.button2.sizeS, span.button2.sizeS {
+  width: 100px;
+}
+a.button2.sizeM, span.button2.sizeM {
+  width: 200px;
+}
+a.button2.sizeL, span.button2.sizeL {
+  width: 300px;
+}
+a.button2.sizeFull, span.button2.sizeFull {
+  display: block;
+}
+a.button2:hover, span.button2:hover {
+  background: #cbcbcb;
+  color: #5a5a5a;
+  cursor: pointer;
+}
+a.button3, span.button3 {
+  font-size: 15px;
+  display: inline-block;
+  border: 1px solid #949494;
+  padding: 12px 20px 15px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  color: #434343;
+  background: #d8d8d8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#c0c0c0) );
+  background: -moz-linear-gradient(-90deg, #ebebeb, #c0c0c0);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ebebeb', endColorstr='#c0c0c0');
+}
+a.button3 img, span.button3 img {
+  vertical-align: middle;
+}
+a.button3:hover, span.button3:hover {
+  color: #434343;
+  background: #c4c4c4;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dcdcdc), to(#aaaaaa) );
+  background: -moz-linear-gradient(-90deg, #dcdcdc, #aaaaaa);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#dcdcdc', endColorstr='#aaaaaa');
+}
+.button3.next, .button3.next {
+  background: url(/resources/common/img/buttonArrow3.png) right center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#c0c0c0) );
+  background: url(/resources/common/img/buttonArrow3.png) right center no-repeat, -moz-linear-gradient(-90deg, #ebebeb, #c0c0c0);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ebebeb', endColorstr='#c0c0c0');
+}
+a.button3.next:hover, span.button3.next:hover {
+  background: url(/resources/common/img/buttonArrow3.png) right center no-repeat, -webkit-gradient(linear, left top, left bottom, from(#dcdcdc), to(#aaaaaa) );
+  background: url(/resources/common/img/buttonArrow3.png) right center no-repeat, -moz-linear-gradient(-90deg, #dcdcdc, #aaaaaa);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#dcdcdc', endColorstr='#aaaaaa');
+}
+a.button3.sizeS, span.button3.sizeS {
+  width: 100px;
+}
+a.button3.sizeM, span.button3.sizeM {
+  width: 200px;
+}
+a.button3.sizeL, span.button3.sizeL {
+  width: 380px;
+}
+a.button3.sizeFull, span.button3.sizeFull {
+  display: block;
+}
+
+
+
+a.linkBtn01 {
+  display: block;
+  width: 360px;
+  height: 36px;
+  overflow: hidden;
+  background: url(/resources/common/img/btn_btCamp.gif) top left no-repeat;
+}
+a.linkBtn01:hover {
+  background-position: bottom;
+}
+a.linkBtn01 span {
+  display: none;
+}
+/* paging
+--------------------------------------------*/
+.paging {
+  display: none;
+}
+.paging {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.paging .prev {
+  margin: 0 20px;
+}
+.paging .next {
+  margin: 0 20px;
+}
+/* slideBox
+--------------------------------------------*/
+div.slideBox {
+  padding-bottom: 40px;
+  zoom: 1;
+}
+div.slideBox:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+div.slideBox div.slButton a.sizeFull {
+  float: none;
+  margin-left: 0;
+}
+
+
+/* accordionBoxProf
+--------------------------------------------*/
+.accordionBoxProf .acContent {
+	overflow: hidden;
+}
+.accordionBoxProf .acButton { display:table; width:100%; }
+.accordionBoxProf .acButton a {
+	display:block;
+	vertical-align:middle;
+	text-align:center;
+	width:170px!important;
+	height:28px;
+	padding-top:5px;
+	color:#b5b5b5;
+	text-decoration:none;
+	margin:auto;
+}
+.accordionBoxProf .acButton a.open {
+	background:url(/about/img/people/arrow.gif) right bottom no-repeat;
+}
+.accordionBoxProf .acButton a.open:hover { color:#969696;
+	background:url(/about/img/people/arrowHover.gif) right bottom no-repeat;
+}
+.accordionBoxProf .acButton a.close {
+	background:url(/about/img/people/arrow.gif) right top no-repeat;
+}
+.accordionBoxProf .acButton a.close:hover { color:#969696;
+	background:url(/about/img/people/arrowHover.gif) right top no-repeat;
+}
+
+/* ?{eLXg
+--------------------------------------------*/
+.imageBlock {
+  margin-bottom: 20px;
+  zoom: 1;
+}
+.imageBlock:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.imageBlock div.img.left {
+  float: left;
+  margin: 0 40px 20px 0;
+}
+.imageBlock div.img.right {
+  float: right;
+  margin: 0 0 20px 40px;
+}
+.imageBlock div.note {
+  overflow: hidden;
+  zoom: 1;
+}
+.imageBlock.wrap div.note {
+  overflow: visible;
+}
+/* evenBlocki/btcamp/schedule.htmlj
+--------------------------------------------*/
+div.evenBlock {
+  margin-bottom: 20px;
+  background: #f6f6f6;
+  padding: 25px;
+  position: relative;
+  zoom:1;
+}
+div.evenBlock .detail p.title {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+div.evenBlock .form {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+/* grayBox
+--------------------------------------------*/
+div.grayBox {
+  margin-bottom: 20px;
+  background: #f6f6f6;
+  padding: 35px;
+}
+/* AJ[i/about/people.htmlj
+--------------------------------------------*/
+ul.anchorBlock {
+  margin:0 0 60px 100px;
+  zoom: 1;
+}
+ul.anchorBlock:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ul.anchorBlock li {
+  float: left;
+  width: 135px;
+  margin-right: 20px;
+  text-align: center;
+}
+ul.anchorBlock li.last {
+  margin-right: 0;
+}
+ul.anchorBlock li a {
+	display:block;
+	wdith:180px; height:110px;
+}
+ul.anchorBlock li a.icon01 { background:url(/about/img/people/icon01L.gif) center top no-repeat; }
+ul.anchorBlock li a.icon02 { background:url(/about/img/people/icon02L.gif) center top no-repeat; }
+ul.anchorBlock li a.icon03 { background:url(/about/img/people/icon03L.gif) center top no-repeat; }
+ul.anchorBlock li a.icon04 { background:url(/about/img/people/icon04L.gif) center top no-repeat; }
+ul.anchorBlock li a.icon05 { background:url(/about/img/people/icon05L.gif) center top no-repeat; }
+ul.anchorBlock li a:hover {
+	display:block;
+	background-position: bottom;
+}
+ul.anchorBlock li a span {
+  display: none;
+}
+/* columns
+--------------------------------------------*/
+div.columns {
+  margin: 0 -20px;
+  zoom: 1;
+  margin-bottom: 40px;
+}
+div.columns:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+div.columns .column {
+  float: left;
+  margin-bottom: 20px;
+}
+div.columns .column .inner {
+  margin: 0 20px;
+  _margin: 0 10px;
+}
+div.columns.two .column {
+  width: 50%;
+}
+div.columns.three .column {
+  width: 33.33%;
+}
+/* t
+--------------------------------------------*/
+dl.dlDate01 {
+  margin-bottom: 5px;
+}
+dl.dlDate01 dt, dl.dlDate01 dd {
+  margin: 0;
+  padding: 0;
+}
+dl.dlDate02 {
+  padding-bottom: 25px;
+  zoom: 1;
+}
+dl.dlDate02:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+dl.dlDate02 dt {
+  float: left;
+  font-size: 89%;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+dl.dlDate02 dd {
+  overflow: hidden;
+  zoom: 1;
+  margin: 0;
+  padding: 0;
+}
+/*  */
+dl.dl01 {
+  zoom: 1;
+  margin-bottom: 40px;
+}
+dl.dl01:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+dl.dl01.last {
+  border-bottom: 0;
+}
+dl.dl01 dt {
+  width: 150px;
+  float: left;
+}
+dl.dl01 dd {
+  overflow:hidden;
+  zoom:1;
+}
+/* gbvy[Wp */
+#topCententBlock {
+  zoom: 1;
+}
+#topCententBlock:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#topCententBlock #infoContent {
+  float: left;
+  width: 588px;
+}
+#topCententBlock #infoContent h2 {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+#topCententBlock #infoContent #events {
+  zoom: 1;
+  margin-bottom: 60px;
+}
+#topCententBlock #infoContent #events:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#topCententBlock #infoContent #events div.event {
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #f6f6f6;
+}
+#topCententBlock #infoContent #events div.event .fcGray {
+  color: #898989;
+  font-size: 90%;
+  margin-bottom: 10px;
+}
+#topCententBlock #infoContent #events div.event p.title {
+  font-size: 16px;
+}
+#topCententBlock #sns {
+  float: right;
+  width: 318px;
+  border: 1px solid #d2d2d2;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",Osaka,sans-serif;
+}
+#topCententBlock #sns .fb{
+	padding:20px;
+	border-bottom:1px solid #d2d2d2;
+}
+#topCententBlock #sns .fb p.title {
+	padding-bottom: 10px;
+}
+#topCententBlock #sns .fb p.title a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #3B5998;
+}
+#topCententBlock #sns .tw{
+	padding:20px;
+	font-size:12px;
+}
+
+/* carousel */
+#movie div.carousel {
+  width: 100%;
+  margin-top:30px;
+  position: relative;
+}
+#movie div.carousel .ca_content {
+  width: 858px; /*js操作*/
+  height: 155px; /*js操作*/
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#movie div.carousel .ca_content ul {
+  width: 2000px;
+  position: absolute;
+  left: 0; /*js操作*/
+  top: 0;
+}
+#movie div.carousel .ca_content ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#movie div.carousel .ca_content ul li {
+  width: 280px;
+  float: left;
+  padding: 0 3px 5px;
+}
+#movie div.carousel .ca_content ul li p.caption{
+  font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HiraKakuPro-W3","ＭＳ Ｐゴシック","MS PGothic",Osaka,sans-serif;
+}
+#movie div.carousel .ca_control {
+  width: 100%;
+  height:45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#movie div.carousel .ca_control .button {
+	padding:15px;
+}
+#movie div.carousel .ca_control .button.prev {
+  position: absolute;
+  top: 70px; /*js操作*/
+  left: 0;
+}
+#movie div.carousel .ca_control .button.next {
+  position: absolute;
+  top: 70px; /*js操作*/
+  right: 0;
+}
+
+#movie div.carousel .ca_control a.button.next, span.button.next {
+background-position:  -985px center;
+}
+
+#movie div.carousel .ca_control a.button.prev, span.prev.next {
+background-position:  5px center;
+}
+
+
+/*  */
+.hFix {
+  height: 50px;
+}
+ul.listMargin {
+  margin: 5px 0;
+}
+li.dot {
+  padding-left: 15px;
+  background: url(/resources/common/img/dot.gif) 5px 7px no-repeat;
+}
+li.num {
+  margin-bottom: 30px;
+}
+
+.portfolioLogo {
+	width:240px; height:240px;
+	border:1px solid #e2e2e2;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	margin:0 -1px -1px 0;
+  -moz-transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.portfolioLogo:hover {
+	background:#f5f5f5;
+	cursor:pointer;
+}
+.portfolioLogo a {
+	display:inline-block;
+	width:240px; height:240px;
+}
+.portfolioLogo img {
+	vertical-align:middle;
+	display:inline;
+}
+
+/* ソーシャルボタン */
+.snsButtons #facebook { position:relative; top:-4px; }
+
+
+/* アイコン横見出しの位置調整 */
+.imageBlock.icon h3 { line-height:1em; }
+
+
+
+
+
+body .imageBlock.icon h3 {
+    line-height:1em;
+    line-height:1.5em\9; /* IE8 and below */
+    *line-height:1.5em; /* IE7 and below */
+    _line-height:1.5em /* IE6 */
+}
+body:not(:target) .imageBlock.icon h3 {
+    line-height:1.5em\9; /* IE9 */
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* -----------------------------------------------
+FileName:	/common/css/wysiwyg.css
+----------------------------------------------- */
+
+.wysiwyg p{
+  margin-top: 20px;
+}
+
+.wysiwyg p:first-child{
+  margin-top: 0px;
+}
+
+.wysiwyg ul{
+	margin-top: 20px;
+}
+
+.wysiwyg ul li{
+	background: url(/common/img/blt/03.gif) no-repeat 0 .5em;
+	padding-left: 14px;
+}
+
+.wysiwyg ol{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.wysiwyg ol li{
+	list-style-type:decimal;
+}
+
+.wysiwyg strong {
+	font-weight:bold !important;
+}

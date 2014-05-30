@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+#side #aboutusNav{
+  background: #fff;
+  padding: 0 9px 10px;
+  border: 1px solid #d3653a;
+}
+#side #aboutusNav strong{
+  display: block;
+  border-top: 2px solid #d3653a;
+  border-bottom: 1px solid #E87244;
+  margin-bottom: 10px;
+}
+#side #aboutusNav dl{
+  background: url(/common/img/structure/icn_contact.gif) no-repeat 0 0;
+  padding-left: 55px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d3653a;
+}
+#side #aboutusNav dt{
+  font-size: 116.7%;
+  font-weight: bold;
+}
+
+#contents a{
+  color: #262626;
+  font-weight: bold;
+}
+
+#contents #themeNavContainer{
+  float: right;
+}
+#contents #themeNav{
+  width: 210px;
+}
+#contents #themeNav li{
+  zoom: 1;
+}
+
+#contents p strong{
+  text-align: center;
+}
+#contents #columnContainer{
+  width: 475px;
+  float: left;
+  background: #fff;
+  position: relative;
+}
+#contents #themeNav{
+  border:none;
+  padding: 0 9px 20px;
+  background: #fff url(../img/index_bg_01.png) left bottom no-repeat;
+}
+#contents #column{
+  width: 455px;
+  background: #fff;
+  padding: 0 9px 20px;
+}
+#contents #column .index_block_01 a:hover{
+	color:#e15c28;
+}
+#contents #column strong{
+  display: block;
+  border-top: 2px solid #a6c40f;
+  border-bottom: 1px solid #a6c40f;
+  margin-bottom: 15px;
+}
+#contents #column li{
+  margin-bottom: 15px;
+}
+#contents #column li a{
+  display: block;
+  background: url(/common/img/blt/01.gif) no-repeat 0 .4em;
+  padding-left: 15px;
+}
+#contents #columnContainer .button{
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+
+#topNav{
+  margin-bottom: 6px;
+}
+#topNav li{
+  width: 230px;
+  float: left;
+  margin-right: 15px;
+}
+
+
+
+.index_block_01{
+  padding: 0 15px;
+}
+.index_block_01 div{
+  background: url(/common/img/bdr/01.gif) repeat-x left bottom;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.index_block_01 p{
+  margin-bottom: 10px;
+}
+.column_block_03 div{
+  background: url(/common/img/bdr/01.gif) repeat-x left bottom;
+  padding: 15px 0;
+}
+.column_block_03 div p{
+  margin-bottom: 15px;
+}
+.column_block_03 div a{
+  color: #262626;
+}
+.column_block_03 div span{
+  
+}
+
+.column_block_02{
+  background: url(/common/img/bdr/01.gif) repeat-x left bottom;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+.column_block_02 p{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    outline:none;
+}
+input,x:-moz-any-link,x:default{
+	font-size: 12px;
+}
+textarea,x:-moz-any-link,x:default{
+	font-size: 12px;
+}
+
+#form{
+	zoom: 1;
+}
+#form .note,
+#form dl{
+	font-size: 85.7%;
+}
+#form .note{
+	text-align: right;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+#form dl{
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+#form dt{
+	margin-bottom: 5px;
+}
+#form dd{
+	margin-bottom: 15px;
+}
+#form .note img,
+#form dl img{
+	vertical-align: top;
+	margin-right: 5px;
+}
+#form dl span{
+	vertical-align: baseline;
+	/vertical-align: super;
+	margin-right: 5px;
+	font-weight: bold;
+}
+#form dl input,
+#form dl textarea{
+	width: 638px;
+	padding: 6px 10px;
+	background: #f5f5f5;
+	color: #808080;
+	border-top: 1px solid #d0d0d0;
+	border-right: 1px solid #e9e9e9;
+	border-bottom: none;
+	border-left: 1px solid #e9e9e9;
+}
+#form dl .active{
+	background: #effbb2;
+	color: #333;
+	border-top: 1px solid #cbd697;
+	border-right: 1px solid #e3eea9;
+	border-bottom: none;
+	border-left: 1px solid #e3eea9;
+}
+#form dl .error{
+	background: #faebe6;
+	color: #808080;
+	border-top: 1px solid #d5c8c4;
+	border-right: 1px solid #eddfda;
+	border-bottom: none;
+	border-left: 1px solid #eddfda;
+}
+#form dl .w200{
+	width: 188px;
+}
+#form dl .w140{
+	width: 128px;
+}
+
+/* エラー */
+#form .errorMessage{
+	color: #e25a25;
+	text-align: center;
+	font-weight: bold;
+	background: url(/common/img/bdr/02.gif) repeat-x 0 0;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+#form .errorMessage p{
+	background: url(/common/img/bdr/02.gif) repeat-x 0 bottom;
+	padding: 8px 0;
+	/padding: 8px 0 0;
+}
+#form .errorMessage span{
+	display: inline-block;
+	background: url(/common/img/icn/02.gif) no-repeat 0 0;
+	padding-left: 30px;
+}
+
+/* 送信エリア */
+#transmission{
+	text-align: center;
+}
+#transmission input{
+	cursor: pointer;
+}
+#checkContainer #check{
+	vertical-align: baseline;
+	margin-right: 10px;
+}
+#transmission #btnContainer{
+	width: 435px;
+	margin: 0 auto;
+}

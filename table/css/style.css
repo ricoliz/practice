@@ -1,0 +1,30 @@
+th,td{
+	border: 1px dotted #ddd;
+	padding: 10px;
+}
+th{
+	background: #000;
+	color: #fff;
+	width: 50px;
+}
+td{
+	background: #e7e7e7;
+	width: 30px;
+}
+
+@media screen and (max-width: 740px){
+	table{
+			width: 100%;
+	};
+	th,td{
+	border: 1px dotted #ddd;
+	}
+	th{
+		background: #fff;
+		color: #000;
+	}
+	td{
+		background: #6e6e6e;
+		color: #fff;
+	}
+}

@@ -4,14 +4,15 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>margin practice</title>
+	<link rel="stylesheet" type="text/css" href="css/h2v.css">
+<script type="text/javascript" src="js/h2v-min.js" charset="utf-8"></script>
 	<link rel="stylesheet" href="">
 <style type="text/css">
-	.wrapper {
-		/*writing-mode : vertical-rl ;
-		-webkit-writing-mode : vertical-rl ; */
-	}
 .textboxwrap {
 	border: 2px #000 solid;
+/*	writing-mode: tb-rl;*//* IE用 */
+		/*writing-mode : vertical-rl;*/
+		/*-webkit-writing-mode : vertical-rl;*/
 }
 	.textbox.start {
 		margin-start: 50px;
@@ -33,12 +34,20 @@
 		-webkit-margin-after: 50px;
 		background-color: orange;
 	}
+
 </style>
+<script type="text/javascript">
+h2vconvert.init( { 'box_1' : { 'bar':false,'showcredit':false,auto:true,lineInterval:0.8,fontsize:'14px',chars : 20,splash:false },
+	'box_2' : { 'bar':false,'showcredit':false,auto:true,lineInterval:0.8,fontsize:'14px',chars : 20,splash:false },
+	'box_3' : { 'bar':false,'showcredit':false,auto:true,lineInterval:0.8,fontsize:'14px',chars : 20,splash:false },
+	'box_4' : { 'bar':false,'showcredit':false,auto:true,lineInterval:0.8,fontsize:'14px',chars : 20,splash:false }
+});
+</script>
 </head>
 <body>
 <div class="wrapper">
 <div class="textboxwrap">
-<div class="textbox start">
+<div class="textbox start" id="box_1">
 <h2>start</h2>
 <p>いつは昨日ずっとこの支配地という事の時へ下っんます。</p>
 <p>とにかく今を話院は同時にそうしたごろごろませですでもを出ていけあるがは所有使えないましので、どうには煮えですませだっな。世間に忘れでしものも向後今が何しろですでた。</p>
@@ -49,7 +58,7 @@
 	</div>
 </div>
 <div class="textboxwrap">
-<div class="textbox end">
+<div class="textbox end" id="box_2">
 <h2>end</h2>
 <p>いつは昨日ずっとこの支配地という事の時へ下っんます。</p>
 <p>とにかく今を話院は同時にそうしたごろごろませですでもを出ていけあるがは所有使えないましので、どうには煮えですませだっな。世間に忘れでしものも向後今が何しろですでた。</p>
@@ -60,7 +69,7 @@
 	</div></div>
 
 <div class="textboxwrap">
-<div class="textbox before">
+<div class="textbox before" id="box_3">
 <h2>before</h2>
 <p>いつは昨日ずっとこの支配地という事の時へ下っんます。</p>
 <p>とにかく今を話院は同時にそうしたごろごろませですでもを出ていけあるがは所有使えないましので、どうには煮えですませだっな。世間に忘れでしものも向後今が何しろですでた。</p>
@@ -71,7 +80,7 @@
 	</div></div>
 
 <div class="textboxwrap">
-<div class="textbox after">
+<div class="textbox after" id="box_4">
 <h2>after</h2>
 <p>いつは昨日ずっとこの支配地という事の時へ下っんます。</p>
 <p>とにかく今を話院は同時にそうしたごろごろませですでもを出ていけあるがは所有使えないましので、どうには煮えですませだっな。世間に忘れでしものも向後今が何しろですでた。</p>

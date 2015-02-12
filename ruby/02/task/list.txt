@@ -1,1 +1,8 @@
-["www.imj-ip.com/jp/about/index.html", "www.imj-ip.com/jp/about/people.html", "www.imj-ip.com/jp/about/values.html", "www.imj-ip.com/jp/contact/index.html", "www.imj-ip.com/jp/index.html", "www.imj-ip.com/jp/news/20140411_01.html", "www.imj-ip.com/jp/portfolio/index.html", "www.imj-ip.com/jp/special/index.html"]
+www.imj-ip.com/jp/about/index.html
+www.imj-ip.com/jp/about/people.html
+www.imj-ip.com/jp/about/values.html
+www.imj-ip.com/jp/contact/index.html
+www.imj-ip.com/jp/index.html
+www.imj-ip.com/jp/news/20140411_01.html
+www.imj-ip.com/jp/portfolio/index.html
+www.imj-ip.com/jp/special/index.html

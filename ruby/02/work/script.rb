@@ -5,7 +5,7 @@ list = Dir.glob("**/*.html")
 
 # Write Read
 puts File.open("read.txt", "r").read
-p File.open("read.txt", "r").readlines
+# p File.open("read.txt", "r").readlines
 
 # Write File
 File.open("write.txt", "w").write("Write mode")

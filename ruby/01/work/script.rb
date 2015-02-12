@@ -56,6 +56,12 @@ preprocessor = {
 }
 # p preprocessor[:html]
 
+# 同じようにかける
+# preprocessor ={
+# 	html: 'Jade',
+# 	css: 'Sass',
+# 	js: 'CoffeeScript'
+# }
 
 
 # Each

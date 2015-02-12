@@ -5,8 +5,8 @@ require "fileutils"
 class Scraping
 
   def initialize(src)
-    html = open(src).read
-    doc = Nokogiri::HTML(open(src).read)
+    html = File.open(src,"r:UTF-8")
+    doc = Nokogiri::HTML(open(src,"r:UTF-8").read)
     dest = "dest/" + src.gsub(%r(\Awww.imj-ip.com/), "")
     string = doc.css("#contents").to_html
     write(dest, string)

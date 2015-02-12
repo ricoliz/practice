@@ -3,32 +3,41 @@
 # カレントディレクトリ以下のファイルリストを作ってください。
 # フファイル名はlist.txt
 
-# puts File.open("list.txt","r").read
-# p File.open("list.txt", "r").readlines
-# 書き込む
-# File.open("list.txt","w").write("write mode")
-# list = Dir.glob("**/*.html")
-# list.each do |e|
-# 	p e
-# end
+ary = Dir.glob("**/*.html")
 
-list = Dir.glob("**/*.html")
-
-File.open("list.txt","w") do |writer|
-	# list.gsub!(/,/, ",\n")
-	# list.puts writer
-	writer << list
-
+File.open("list.txt","w") do |w|
+	ary.each do |lists|
+		w << lists
+		w << "\n"
+	end
+	puts w
 end
 
-# open('./new_file.txt', 'a+') do |new_file|
-# 	file_text = open('./file.txt').read
-# 	# ,は句点
-# 	file_text.gsub!(/,/, ",\n")
-# 	# 日本語の句点ならこっち
-# 	# file_text.gsub(/、/, "、\n")
-# 	new_file.puts file_text
+
+# Dir.glob("**/*.html") do |w|
+# 	w.each do |s|
+# 		puts s
+# 	end
 # end
+
+# Dir.glob("**/*.html").each do |w|
+# 	File.open("list.txt","w"){|f| f.write w}
+# end
+
+
+	# list.each do |e|
+	# p e
+	# list.each do |write|
+	# 	p write
+	# end
+
+# File.open("list.txt","w") do |writer|
+# 	# list.gsub!(/,/, ",\n")
+
+# 	writer << list
+# 	# puts list
+# end
+
 
 # File.open("list.txt","w") do |writer|
 # 	list.each{|d|
